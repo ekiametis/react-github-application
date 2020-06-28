@@ -23,7 +23,7 @@ const Search = ({ onSearch }) => {
           placeholder="Type the github username"
           inputRef={query}
         />
-        <Button>Search</Button>
+        <Button onClick={handleOnSubmit}>Search</Button>
       </FormControl>
     </form>
   );
